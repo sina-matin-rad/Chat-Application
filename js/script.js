@@ -1,7 +1,5 @@
-// script.js
-
 document.addEventListener('DOMContentLoaded', () => {
-    const socket = io();
+    const socket = io(); 
     const chatBox = document.getElementById('chatBox');
     const messageInput = document.getElementById('messageInput');
     const sendButton = document.getElementById('sendButton');
